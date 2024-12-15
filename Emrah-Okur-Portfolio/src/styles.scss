@@ -1,1 +1,40 @@
-/* You can add global styles to this file, and also import other style files */
+$toxicgreen: #39ff14;
+$dark: #141d2f;
+$purple: #9747ff;
+$neongreen: #70e61c;
+$gray: #b6b6b6;
+$red: #e61c40;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/assets/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/assets/fonts/Poppins-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #141d2f;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100vw;
+  height: 100%;
+}
