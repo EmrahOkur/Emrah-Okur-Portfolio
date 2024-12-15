@@ -2,7 +2,7 @@ $toxicgreen: #39ff14;
 $purple: #9747ff;
 $dark: #141d2f;
 
-.section-footer {
+.footer-section {
   position: relative;
   z-index: 5;
   width: 100%;
@@ -60,7 +60,7 @@ $dark: #141d2f;
   margin-right: 100px;
 }
 
-.icon {
+.icons {
   width: 30px;
   height: 30px;
   transition: transform 0.2s ease;
@@ -82,7 +82,7 @@ $dark: #141d2f;
   margin-left: 100px;
 }
 
-.legal2 {
+.legal-second {
   display: none;
 }
 
@@ -128,7 +128,7 @@ a {
     display: none;
   }
 
-  .legal2 {
+  .legal-second {
     display: flex;
     width: 98px;
     height: 19px;
