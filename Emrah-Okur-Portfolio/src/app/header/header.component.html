@@ -9,5 +9,29 @@
       <a href="#skills">Skills</a>
       <a href="#portfolio">Portfolio</a>
     </div>
+
+    <div class="navbar-mobile">
+        <img *ngIf="!navbarOpen && !animationClose" src="../../assets/img/header-img/burger menu.png" alt="Open Menu"
+          class="burger-icon" (click)="toggleNavbar()" />
+  
+        <img *ngIf="navbarOpen && !animationClose" src="../../../assets/img/header-img/close.png" alt="Close Menu"
+          class="burger-icon" (click)="toggleNavbar()" />
+  
+        <img *ngIf="animationClose"
+          [src]="closeAnimationStage === 1 ? '../../../assets/img/header-img/close1 (1).png' : '../../../assets/img/header-img/close2 (1).png'"
+          alt="Close Animation" class="burger-icon" />
+  
+        <div class="mobile-overlay" [class.navbar-open]="navbarOpen">
+          <div class="overlay-header">
+            <div class="overlay-hero">Emrah</div>
+          </div>
+          <nav class="navbar-content">
+            <a href="#about" (click)="toggleNavbar()">About me</a>
+            <a href="#skills" (click)="toggleNavbar()">Skills</a>
+            <a href="#portfolio" (click)="toggleNavbar()">Portfolio</a>
+            <a href="#contact" (click)="toggleNavbar()">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
