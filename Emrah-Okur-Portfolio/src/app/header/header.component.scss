@@ -1,0 +1,102 @@
+$toxicgreen: #39ff14;
+$purple: #9747ff;
+$dark: #141d2f;
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  display: flex;
+  background-color: #141d2f;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  height: 109px;
+  max-height: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+
+  .spread-apart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1240px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .hero{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 34px;
+    width: 150px;
+    position: relative;
+    color: white;
+    transition: visibility 0.125s ease, opacity 0.125s ease;
+
+    &::first-letter{
+        position: relative;
+        z-index: 1;
+        color: $toxicgreen;
+    }
+
+    &::before{
+        content: 'E';
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: white;
+        width: 50%;
+        clip-path: inset(0 0 0 50%);
+        z-index: 2;
+    }
+}
+.hidden{
+    visibility: hidden;
+    opacity: 0;
+}
+.navbar-desktop{
+    display: flex;
+    gap: 29px;
+    align-items: center;
+    color: white;
+
+    a{
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+        font-size: 23px;
+        line-height: 27.6px;
+        font-weight: 400;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &:hover{
+            color: $toxicgreen;
+        }
+
+        &.active{
+            color: $toxicgreen;
+
+            &::after{
+                content: '';
+                position: absolute;
+                left: -2px;
+                bottom: -3px;
+                height: 3px;
+                width: 53px;
+                background-color: $purple;
+                border-top-right-radius: 2px;
+                border-bottom-right-radius: 2px;
+            }
+        }
+    }
+}
+
+a{
+    text-decoration: none;
+}
+
+}
