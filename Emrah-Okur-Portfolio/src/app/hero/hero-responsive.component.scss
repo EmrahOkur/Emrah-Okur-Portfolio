@@ -1,0 +1,177 @@
+@import '../../styles.scss';
+
+// Variablen
+$hero-text-size-large: 47.3px;
+$hero-text-size-medium: 41.4px;
+$hero-text-size-small: 32px;
+$hero-role-width: 450px;
+$hero-name-width: 350px;
+
+// Für mittlere Bildschirmgrößen (max-width: 1100px)
+@media (max-width: 1100px) {
+    .cta-button {
+        margin-top: 35px;
+    }
+
+    .text-section {
+        margin-right: 43px;
+    }
+
+    .hero-main {
+        .hero-description {
+            width: auto;
+            margin-left: -28px;
+
+            .intro-text p {
+                width: 78px;
+                margin-bottom: -69px;
+                margin-left: -31px;
+                font-size: 33.2px;
+            }
+
+            .hero-name-title {
+                .hero-role, .hero-name {
+                    width: $hero-role-width;
+
+                    span, h1 {
+                        font-size: $hero-text-size-medium;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Für kleine Desktop-Bildschirme
+@media (min-width: 900px) and (max-width: 1100px) {
+    .secondary-shadow {
+        margin-top: 1%;
+    }
+}
+
+// Für kleine Tablets
+@media (min-width: 801px) and (max-width: 916px) {
+    .hero-image {
+        width: 412px;
+        top: 7vh;
+    }
+
+    .secondary-shadow {
+        margin-top: 3%;
+    }
+}
+
+// Für Tablets und kleinere Bildschirme (max-width: 800px)
+@media (max-width: 800px) {
+    .hero-container {
+        height: calc(100vh - 109.03px);
+    }
+
+    .divider {
+        width: 35%;
+    }
+
+    .text-section {
+        margin-top: -10vh;
+        display: flex;
+    }
+
+    .contact-email {
+        display: none;
+    }
+
+    .hero-main {
+        display: flex;
+        flex-direction: column;
+
+        .hero-description {
+            display: flex;
+            justify-content: center;
+
+            .intro-text p {
+                font-size: $hero-text-size-small;
+                margin-left: -81px;
+            }
+
+            .hero-name-title {
+                .hero-role, .hero-name {
+                    width: $hero-role-width;
+                    span, h1 {
+                        font-size: $hero-text-size-small;
+                    }
+                }
+            }
+        }
+    }
+
+    .scroll-section {
+        display: none;
+    }
+
+    .background-layer {
+        width: 500px;
+        margin-left: -8vh;
+        top: 14vh;
+
+        .background-shadow {
+            margin-left: 10%;
+        }
+    }
+
+    .secondary-background-layer {
+        top: 68px;
+    }
+
+    .hero-image {
+        top: -4vh;
+        height: 550px;
+        margin-left: 0;
+    }
+
+    .secondary-shadow {
+        margin-left: -100px;
+        margin-top: 15%;
+    }
+
+    .cta-button {
+        margin-top: 60px;
+        width: 100%;
+    }
+}
+
+// Für kleine Smartphones (max-width: 620px)
+@media (max-width: 620px) {
+    .hero-image {
+        top: -4vh;
+        width: 400px;
+    }
+
+    .hero-main {
+        .hero-description {
+            .intro-text p {
+                font-size: 22.8px;
+                margin-left: -19px;
+            }
+
+            .hero-name-title {
+                .hero-role, .hero-name {
+                    width: $hero-name-width;
+
+                    span, h1 {
+                        font-size: 26.8px;
+                    }
+                }
+            }
+        }
+    }
+
+    .text-section {
+        justify-content: center;
+        margin-left: 7%;
+        margin-top: -3vh;
+    }
+
+    .cta-button {
+        margin-top: 3%;
+    }
+}

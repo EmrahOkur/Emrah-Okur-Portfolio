@@ -1,0 +1,86 @@
+@import '../../styles.scss';
+
+// Bildschirmgrößen mit max-width: 2560px und max-height: 1600px
+@media only screen and (max-width: 2560px) and (max-height: 1600px) {
+    .hero-content {
+        height: 51vh;
+    }
+
+    .hero-image {
+        top: -1vh;
+        width: 29%;
+        left: 2%;
+    }
+
+    .background-layer {
+        margin-top: -11vh;
+    }
+}
+
+// Bildschirmgrößen mit max-width: 1600px und max-height: 2560px
+@media only screen and (max-width: 1600px) and (max-height: 2560px) {
+    .hero-content {
+        height: 51vh;
+    }
+
+    .hero-image {
+        top: -1vh;
+        width: 29%;
+        left: 2%;
+    }
+
+    .background-layer {
+        margin-top: -11vh;
+    }
+}
+
+// Bildschirmgrößen mit max-width: 600px und max-height: 1024px
+@media only screen and (max-width: 600px) and (max-height: 1024px) {
+    .text-section {
+        margin-top: -7vh;
+    }
+
+    .secondary-shadow {
+        margin-top: 1.2vh;
+    }
+}
+
+// Microsoft Surface Portrait
+@media only screen and (max-width: 768px) and (max-height: 1366px) {
+    .hero-content {
+        height: 60vh;
+    }
+
+    .text-section {
+        margin-top: -10vh;
+    }
+}
+
+// Sehr spezifische Bildschirmgröße
+@media only screen and (min-width: 719px) and (max-width: 720px) and (min-height: 1279px) and (max-height: 1280px) {
+    .hero-content {
+        height: 60vh;
+    }
+
+    .text-section {
+        margin-top: -10vh;
+    }
+}
+
+// Sehr spezifische Bildschirmgröße (1161px x 768px)
+@media only screen and (min-width: 1161px) and (max-width: 1161px) and (min-height: 768px) and (max-height: 768px) {
+    .text-section {
+        margin-top: 10%;
+    }
+}
+
+// Sehr spezifische Bildschirmgröße (425px x 1127px)
+@media only screen and (min-width: 425px) and (max-width: 425px) and (min-height: 1127px) and (max-height: 1127px) {
+    .text-section {
+        margin-top: 10%;
+    }
+
+    .secondary-shadow {
+        margin-top: 3%;
+    }
+}

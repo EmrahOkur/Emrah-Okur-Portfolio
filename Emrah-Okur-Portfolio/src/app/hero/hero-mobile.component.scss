@@ -1,0 +1,44 @@
+@import '../../styles.scss';
+
+// Für sehr kleine Bildschirme
+@media (max-width: 500px) {
+    .secondary-shadow {
+        margin-top: 55%;
+    }
+
+    .hero-image {
+        top: 1vh;
+    }
+
+    .scroll-section {
+        margin-top: -25px;
+    }
+}
+
+// Für kleinere Bildschirme unter 480px
+@media (max-width: 480px) {
+    .secondary-shadow {
+        margin-top: 33vh;
+    }
+
+    .text-section {
+        margin-left: 1%;
+        margin-top: -6vh;
+    }
+}
+
+// Für kleine Bildschirme mit spezifischen Abmessungen
+@media (max-width: 360px) {
+    .text-section {
+        margin-top: -13vh;
+    }
+
+    .secondary-shadow {
+        margin-top: -11vh;
+    }
+
+    .hero-image {
+        top: -5vh;
+        width: 352px;
+    }
+}
