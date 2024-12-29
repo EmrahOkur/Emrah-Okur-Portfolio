@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './portfolio-section.component.html',
-  styleUrl: './portfolio-section.component.scss'
+  styleUrls: ['./portfolio-section.component.scss','./portfolio-section-responsive.scss']
 })
 export class PortfolioSectionComponent {
 

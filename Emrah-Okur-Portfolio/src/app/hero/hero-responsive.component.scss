@@ -114,7 +114,7 @@ $hero-name-width: 350px;
         top: 14vh;
 
         .background-shadow {
-            margin-left: 10%;
+            margin-left: -10%;
         }
     }
 
@@ -149,6 +149,7 @@ $hero-name-width: 350px;
     .hero-main {
         .hero-description {
             .intro-text p {
+                
                 font-size: 22.8px;
                 margin-left: -19px;
             }
