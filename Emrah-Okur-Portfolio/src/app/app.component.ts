@@ -19,11 +19,11 @@ export class AppComponent implements OnInit {
     // Überprüfen, ob der Code im Browser ausgeführt wird
     if (isPlatformBrowser(this.platformId)) {
       AOS.init({
-        duration: 1200,       // Dauer der Animation in Millisekunden
+        duration: 1000,       // Dauer der Animation in Millisekunden
         easing: 'ease-out-back', // Art der Animation
         once: false,          // Animation wird bei erneutem Scrollen ausgelöst
         mirror: true,         // Animation wird auch bei Scroll nach oben ausgelöst
-        delay: 100            // Verzögerung vor dem Start der Animation
+        delay: 90            // Verzögerung vor dem Start der Animation
       });
     }
   }
