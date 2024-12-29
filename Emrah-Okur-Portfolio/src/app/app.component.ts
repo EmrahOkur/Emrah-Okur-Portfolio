@@ -16,14 +16,13 @@ export class AppComponent implements OnInit {
   constructor(@Inject(PLATFORM_ID) private platformId: object) {}
 
   ngOnInit() {
-    // Überprüfen, ob der Code im Browser ausgeführt wird
     if (isPlatformBrowser(this.platformId)) {
       AOS.init({
-        duration: 1000,       // Dauer der Animation in Millisekunden
-        easing: 'ease-out-back', // Art der Animation
-        once: false,          // Animation wird bei erneutem Scrollen ausgelöst
-        mirror: true,         // Animation wird auch bei Scroll nach oben ausgelöst
-        delay: 90            // Verzögerung vor dem Start der Animation
+        duration: 1200,       // Längere Dauer für geschmeidigere Animationen
+        easing: 'ease-in-out', // Geschmeidiger Start und Ende          
+        once: false,
+        mirror:true,          // Animation nur einmal abspielen
+        delay: 100,           // Mehr Verzögerung für ein sanfteres Auftreten
       });
     }
   }
