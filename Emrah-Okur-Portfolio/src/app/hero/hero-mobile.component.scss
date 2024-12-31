@@ -4,6 +4,7 @@
 @media (max-width: 500px) {
     .secondary-shadow {
         margin-top: 55%;
+        bottom: 120px;
     }
 
     .hero-image {
@@ -27,7 +28,7 @@
         justify-content: center;
         align-items: center;
         width: auto;
-        margin-top: 50px;
+        margin-top: -50px;
         
 
     }
@@ -37,14 +38,52 @@
         align-items: center;
 
     }
-    .secondary-shadow{
-        bottom: 120px;
-    }
+   
     .footer-links{
         display: none;
     }
-
+    .hero-name-title .hero-name h1 {
+        position: absolute; /* Aktiviert absolute Positionierung */
+        top: 50%; /* Positionierung von oben */
+        left: 50%; /* Positionierung von links */
+        transform: translate(-50%, -50%) translate(20px, -100px); /* Zentriert und verschiebt */
+        text-align: center; /* Zentriert den Text horizontal */
+        font-size: 36px !important; /* Kleinere Schriftgröße */
+        
+      
+    }
+    .hero-subtitle{
+        position: absolute; /* Aktiviert absolute Positionierung */
+    top: 50%; /* Positionierung von oben */
+    left: 50%; /* Positionierung von links */
+    transform: translate(-50%, -150%) translate(20px, 30px); /* Zentriert und verschiebt */
+    text-align: center; /* Zentriert den Text horizontal */
+    }
     
+    .hero-subtitle span {
+        font-size: 36px !important; /* Schriftgröße */
+        color: #9747ff; /* Textfarbe */
+        font-family: 'Poppins', sans-serif; /* Schriftart */
+        
+    }
+    .intro-text {
+        position: relative; /* Ermöglicht relative Verschiebung */
+        top: -90px; /* Hebt das Element an */
+        left: 50px;
+        text-align: center; /* Zentriert den Text */
+    }
+    
+    .intro-text p {
+        font-size: 14px !important; /* Schriftgröße */
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        margin: 0; /* Entfernt Standard-Abstand */
+    }
+
+    .text-section {
+        position: relative; /* Ermöglicht relative Verschiebung */
+        transform: translate(-10px, 20px); /* Verschiebt den gesamten Container */
+    }
 
     
 }
