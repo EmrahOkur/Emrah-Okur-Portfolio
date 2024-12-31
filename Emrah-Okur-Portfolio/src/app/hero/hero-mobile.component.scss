@@ -21,10 +21,32 @@
         margin-top: 33vh;
     }
 
-    .text-section {
-        margin-left: 1%;
-        margin-top: -6vh;
+
+    .cta-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        margin-top: 50px;
+        
+
     }
+    .hero-name{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .secondary-shadow{
+        bottom: 120px;
+    }
+    .footer-links{
+        display: none;
+    }
+
+    
+
+    
 }
 
 // Für kleine Bildschirme mit spezifischen Abmessungen
