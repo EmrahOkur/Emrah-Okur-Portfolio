@@ -47,7 +47,7 @@
     position: relative;
     width: 144vw;
     height: auto;
-    z-index: 5;
+    z-index: 1;
     margin-top: -22%;
 }
 
@@ -63,12 +63,20 @@ a {
     cursor: pointer;
 }
 
-.background-layer,
-.background-layer-secondary {
+.background-layer {
     position: absolute;
     top: 177.6px;
     width: 70vw;
     max-width: 1440px;
+    
+    
+}
+.background-layer-secondary{
+    position: absolute;
+    top: 177.6px;
+    width: 70vw;
+    max-width: 1440px;
+    z-index: 1;
 }
 
 .text-section {
