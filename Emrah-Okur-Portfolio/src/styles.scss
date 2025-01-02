@@ -27,13 +27,14 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #141d2f;
-  display: flex;
-  justify-content: center;
+  background-color: rgba(20, 29, 47, 1);
   margin: 0;
   padding: 0;
   height: 100%;
   overflow-x: hidden;
+  box-sizing: border-box;
+  min-height: 100vh;
+  
 }
 
 .container {

@@ -34,7 +34,7 @@
     width: 790px;
     max-width: 780px;
     margin-left: -70%;
-    margin-top: -14vh;
+    margin-top: -23vh;
 
     img {
         width: 690px;
@@ -71,13 +71,7 @@ a {
     
     
 }
-.background-layer-secondary{
-    position: absolute;
-    top: 177.6px;
-    width: 70vw;
-    max-width: 1440px;
-    z-index: 1;
-}
+
 
 .text-section {
     display: flex;
@@ -200,12 +194,17 @@ a {
 }
 
 .social-links {
+    position: relative;
     display: flex;
     justify-content: space-between;
     max-width: 1340px;
     align-items: center;
     gap: 16px;
+    z-index: 10;
+    
 }
+
+
 
 .divider {
     display: flex;
@@ -240,6 +239,8 @@ a {
     justify-content: flex-end;
 }
 
+
+
 .footer-links {
     max-width: 1440px;
     width: 100%;
@@ -249,7 +250,11 @@ a {
     z-index: 10;
     background-color: transparent;
     margin-top: 30%;
+    
+   
 }
+
+
 
 .scroll-prompt {
     width: auto;
