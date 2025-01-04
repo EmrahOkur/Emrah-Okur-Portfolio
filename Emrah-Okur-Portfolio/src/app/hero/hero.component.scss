@@ -4,7 +4,8 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    overflow: visible;
+    overflow: hidden;
+    padding-bottom: 150px;
 }
 
 .hero-content {
@@ -25,9 +26,7 @@
     margin-right: -10%;
 }
 
-.hero-mobile {
-    display: block;
-}
+
 
 .background-shadow {
     position: relative;
@@ -248,7 +247,7 @@ a {
     position: relative;
     display: flex;
     justify-content: space-between;
-    z-index: 100;
+    z-index: 101;
     background-color: transparent;
     margin-top: 45%;
     
