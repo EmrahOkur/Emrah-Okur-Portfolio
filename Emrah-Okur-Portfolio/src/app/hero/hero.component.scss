@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     overflow: hidden;
-    padding-bottom: 90px;
+    padding-bottom: 120px;
 }
 
 .hero-content {
@@ -14,6 +14,7 @@
     justify-content: center;
     height: calc(100vh - 109.03px);
     max-height: calc(100vh - 109.03px);
+    display: flex;
     width: 100vw;
     max-width: 1440px;
     flex-direction: column;
@@ -26,7 +27,9 @@
     margin-right: -10%;
 }
 
-
+.hero-mobile {
+    display: block;
+}
 
 .background-shadow {
     position: relative;
@@ -183,6 +186,10 @@ a {
     }
 }
 
+.cta-link {
+    position: relative;
+}
+
 .contact-email {
     font-family: 'Poppins', sans-serif;
     color: white;
@@ -193,13 +200,11 @@ a {
 }
 
 .social-links {
-    position: relative;
     display: flex;
     justify-content: space-between;
     max-width: 1340px;
     align-items: center;
     gap: 16px;
-    z-index: 10;
     
 }
 
