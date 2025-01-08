@@ -81,7 +81,7 @@ a {
     position: relative;
     margin-left: auto;
     margin-top: 0;
-    margin-right: 180px;
+    margin-right: 170px;
     z-index: 6;
     bottom:-350px;
 }
@@ -216,6 +216,7 @@ a {
     margin-left: 1vw;
     height: 4px;
     background-color: $purple;
+    border-radius: 8px;
 }
 
 .social-icon {
@@ -255,6 +256,8 @@ a {
     z-index: 101;
     background-color: transparent;
     margin-top: 45%;
+    left: -150px;
+    
     
    
 }
