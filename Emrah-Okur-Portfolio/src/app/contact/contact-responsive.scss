@@ -1,0 +1,197 @@
+@import '../../styles.scss';
+
+@media only screen and (max-width: 4096px) and (max-height: 2304px) {
+    .contact-container {
+        height: 35vh;
+    }
+
+    .contact-container {
+        .contact-header {
+            .contact-divider {
+                width: 52vw;
+                margin-right: 32px;
+                margin-left: -39vw;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 3840px) and (max-height: 2160px) {
+    .contact-container {
+        height: 37vh;
+    }
+}
+
+@media only screen and (max-width: 2560px) and (max-height: 1440px) {
+    .contact-container {
+        height: fit-content;
+    }
+}
+
+@media only screen and (max-width: 1920px) and (max-height: 1200px) {
+    .contact-container {
+        height: 100vh;
+    }
+}
+
+@media only screen and (max-width: 1440px) and (max-height: 900px) {
+    .contact-section {
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 1366px) and (max-height: 768px) {
+    .contact-container {
+        height: calc(100vh + 29.03px);
+    }
+}
+
+@media only screen and (max-width: 1280px) and (max-height: 800px) {
+    .contact-container {
+        height: fit-content;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (max-height: 768px) {
+    .contact-container {
+        height: calc(100vh + 229.03px);
+    }
+
+    .contact-container {
+        height: calc(100vh + 59.03px);
+    }
+}
+
+@media only screen and (max-width: 1024px) and (max-height: 600px) {
+    .contact-container {
+        height: calc(100vh + 209.03px);
+    }
+}
+
+@media (max-width: 1000px) {
+    .contact-container {
+        height: calc(100vh + 209.03px);
+        margin-left: 0;
+        padding: 0;
+
+        .contact-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 0;
+            margin-right: 0;
+
+            .contact-intro {
+                margin-left: -10%;
+            }
+
+            .contact-form {
+                margin: 0;
+            }
+        }
+    }
+
+    .confirmation-container {
+        right: 30%;
+    }
+}
+
+@media (max-width: 800px) {
+    .contact-container {
+        height: calc(100vh + 219.03px);
+
+        .contact-content {
+            margin-left: 0;
+            margin-right: 3%;
+
+            .contact-form {
+                margin: 0;
+            }
+
+            .contact-intro {
+                height: auto;
+                margin-right: 0;
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        .contact-footer-shadow {
+            left: -41vh;
+            top: -30vh;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .contact-container {
+        height: calc(100vh + 219.03px);
+
+        .scroll-to-top {
+            margin-right: 5%;
+        }
+
+        .contact-header {
+            margin-bottom: 0;
+
+            .contact-title {
+                font-size: 45px;
+                margin-left: 0;
+            }
+        }
+
+        .contact-header {
+            .contact-divider {
+                margin-right: 10px;
+                width: 5%;
+                margin-left: 0;
+            }
+        }
+
+        .contact-content {
+            .contact-intro {
+                .contact-intro-text {
+                    .contact-problem {
+                        font-size: 23px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    .contact-container {
+        .contact-footer-shadow {
+            left: -41vh;
+            top: -30vh;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .contact-container {
+        height: calc(100vh + 359.03px);
+    }
+}
+
+@media (max-width: 375px) {
+    .contact-container {
+        .contact-footer-shadow {
+            left: -41vh;
+            top: -30vh;
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .contact-container {
+        .contact-footer-shadow {
+            left: -41vh;
+            top: -30vh;
+        }
+    }
+}
