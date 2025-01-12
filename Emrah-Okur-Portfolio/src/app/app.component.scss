@@ -138,8 +138,8 @@
             .background-layer-secondary {
                 position: absolute;
                 width: 100%;
-                height: 310px;
-                top: 390px;
+                height: 210px;
+                top: 450px;
               
                
                 background-image: url('../assets/img/hero-img/shapeheropage.png');
@@ -154,31 +154,14 @@
             } 
           
 
-        @media (max-width: 400px) {
-            .background-layer-secondary {
-                position: absolute;
-                width: 100%;
-                height: 390px;
-                top: 350px;
-              
-               
-                background-image: url('../assets/img/hero-img/shapeheropage.png');
-                background-repeat: no-repeat;
-                background-position: left 0px top 0px;
-                background-size: 100%  100%;
-                z-index: 1;
-                
-                
-              }
-              
-            } 
+       
             
               @media (max-width: 400px) {
                 .background-layer-secondary {
                     position: absolute;
                     width: 100%;
                     height: 318px;
-                    top: 374px;
+                    top: 414px;
                   
                    
                     background-image: url('../assets/img/hero-img/shapeheropage.png');
