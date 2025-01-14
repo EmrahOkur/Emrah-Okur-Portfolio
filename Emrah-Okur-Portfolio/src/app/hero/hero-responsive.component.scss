@@ -367,6 +367,11 @@
   .background-shadow {
     margin-left: 15%;
   }
+
+  p{
+    margin-left: -5px !important;
+    margin-bottom: 10px !important;
+  }
 }
 
 
@@ -424,16 +429,17 @@
   }
 
   .hero-image {
-    top: 15vh;
+    top: 18vh;
+    right: 10px;
   }
 
   .cta-button {
-    margin-left: 30px;
+    margin-left: 30px !important;
   }
 
   .text-section {
-    margin-top: 15vh;
-    margin-left: 0;
+    margin-top: 20vh;
+    margin-left: 20px;
   }
 
   .footer-links {
@@ -456,7 +462,7 @@
     font-size: 30px !important;
     line-height: 45.6px !important;
     color: white;
-    margin-bottom: 0px !important;
+    margin-bottom: 20px !important;
     margin-left: 10px !important;
   }
 }
