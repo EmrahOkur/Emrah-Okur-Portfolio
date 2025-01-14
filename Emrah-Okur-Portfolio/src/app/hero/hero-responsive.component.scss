@@ -537,15 +537,20 @@
 
 @media (min-width: 375px) and (max-width: 376px) {
    .hero-image{
-    top:120px !important;
+    top:120px;
    }
 
    .text-section{
-    top:50px;
+    top:80px;
+    left: 20px;
    }
 
    p{
     margin-left: -10px !important;
     margin-top: 30px !important;
+   }
+
+   .footer-links{
+    top:50px;
    }
 }
