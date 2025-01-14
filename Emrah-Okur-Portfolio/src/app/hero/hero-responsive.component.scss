@@ -336,8 +336,33 @@
 
 }
 
+@media screen and (width: 440px){
+    .hero-image{
+        top:-100px;
+    }
+    .background-shadow{
+        top: -200px;
+        
+    }
+    .text-section{
+        top: -140px;
+    }
+    .footer-links{
+        left: 0px;
+    }
+    h1{
+        font-size: 50px !important;
+        line-height: 10px !important;
+    }
+    p{
+        font-size: 30px !important;
+        margin-top: 20px !important;
+        margin-left: 1px !important;
+    }
+}
+
 /* Breite 400px bis 480px (kleinere Tablets und größere Smartphones) */
-@media (min-width: 400px) and (max-width: 480px) {
+@media (min-width: 400px) and (max-width: 439px) {
   .hero-image {
     margin-top: 2%;
     width: 350px;

@@ -2,7 +2,7 @@
     position: absolute;
     width: 100%;
     height: 971.56px;
-    top: 377.6px;
+    top: 357.6px;
     background-image: url('../assets/img/hero-img/28.\ Hero\ Background\ \(1\).png');
     background-repeat: no-repeat;
     background-position: left 0px top 0px;
@@ -36,7 +36,7 @@
       width: 100%;
       height: 1071.56px;
       height: 971.56px;
-      top: 347.6px;
+      top: 337.6px;
      
       background-image: ('../assets/img/hero-img/28.\ Hero\ Background\ \(1\).png');
       background-repeat: no-repeat;
@@ -102,8 +102,8 @@
           .background-layer-secondary {
             position: absolute;
             width: 100%;
-            height: 298px;
-            top: 380px;
+            height: 208px;
+            top: 385px;
             
             
           
@@ -121,8 +121,8 @@
           .background-layer-secondary {
               position: absolute;
               width: 100%;
-              height: 228px !important;
-              top: 424px !important ;
+              height: 208px !important;
+              top: 404px !important ;
             
              
               background-image: url('../assets/img/hero-img/shapeheropage.png');
@@ -132,8 +132,26 @@
               z-index: 1;
               
             }
+          }
+            @media screen and (max-width: 440px){
+              .background-layer-secondary {
+                position: absolute;
+                width: 100%;
+                height: 205px;
+                top: 430px;
+              
+               
+                background-image: url('../assets/img/hero-img/shapeheropage.png');
+                background-repeat: no-repeat;
+                background-position: left 0px top 0px;
+                background-size: 100%  100%;
+                z-index: 1;
+                
+                
+              }
+            }
             
-          } 
+        
           @media (max-width: 430px) {
             .background-layer-secondary {
                 position: absolute;
