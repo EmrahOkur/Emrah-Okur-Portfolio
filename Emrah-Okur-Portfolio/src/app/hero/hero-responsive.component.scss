@@ -369,8 +369,10 @@
   }
 }
 
+
+
 /* Breite 361px bis 399px (mittlere Smartphones) */
-@media (min-width: 361px) and (max-width: 399px) {
+@media (min-width: 376px) and (max-width: 399px) {
   .hero-image {
     top: 12vh;
   }
@@ -410,6 +412,9 @@
     top: 30px;
   }
 }
+
+
+
 
 /* Bis 360px (kleinere Smartphones) */
 @media (max-width: 360px) {
@@ -503,6 +508,8 @@
   }
 }
 
+
+
 @media (max-width: 394px) {
     .background-shadow{
         margin-top: 300px;
@@ -520,4 +527,19 @@
     .cta-button{
         margin-left: 20px;
     }
+}
+
+@media (min-width: 375px) and (max-width: 376px) {
+   .hero-image{
+    top:120px !important;
+   }
+
+   .text-section{
+    top:50px;
+   }
+
+   p{
+    margin-left: -10px !important;
+    margin-top: 40px !important;
+   }
 }
