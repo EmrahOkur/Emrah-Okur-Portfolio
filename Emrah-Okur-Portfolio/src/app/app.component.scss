@@ -136,7 +136,7 @@
             @media screen and (max-width: 440px){
               .background-layer-secondary {
                 position: absolute;
-                width: 100%;
+                width: 120%;
                 height: 305px;
                 top: 400px;
               
@@ -157,7 +157,7 @@
                 position: absolute;
                 width: 100%;
                 height: 185px;
-                top: 410px;
+                top: 450px;
               
                
                 background-image: url('../assets/img/hero-img/shapeheropage.png');
@@ -178,7 +178,7 @@
               @media (max-width: 400px) {
                 .background-layer-secondary {
                     position: absolute;
-                    width: 100%;
+                    width: 120%;
                     height: 298px;
                     top:384px;
                   
@@ -195,7 +195,7 @@
                 @media (max-width: 412px) {
                   .background-layer-secondary {
                       position: absolute;
-                      width: 100%;
+                      width: 120%;
                       height: 298px;
                       top:394px;
                     
@@ -212,7 +212,7 @@
                 @media (min-width: 375px) and (max-width: 376px) {
                   .background-layer-secondary {
                     position: absolute;
-                    width: 100%;
+                    width: 120%;
                     height: 228px;
                     top:424px;
                   
@@ -229,7 +229,7 @@
                 @media (max-width: 360px) {
                   .background-layer-secondary {
                       position: absolute;
-                      width: 100%;
+                      width: 150%;
                       height: 248px;
                       top: 434px;
                       
@@ -248,15 +248,15 @@
               @media (max-width: 320px) {
                   .background-layer-secondary {
                       position: absolute;
-                      width: 100%;
+                      width: 150%;
                       height: 208px;
-                      top: 464px;
+                      top: 434px;
                       
                     
                      
                       background-image: url('../assets/img/hero-img/shapeheropage.png');
                       background-repeat: no-repeat;
-                      background-position: left 0px top 0px;
+                      background-position: left 0px top 20px;
                       background-size: 100%  100%;
                       z-index: 1;
                       

@@ -1,7 +1,11 @@
 @import '../../styles.scss';
 
 @media (max-width: 620px) {
-
+.background-shadow{
+  margin-top: -10%;
+  margin-left: -10%;
+  
+}
     .hero-image {
         top: -4vh;
         width: 400px;
@@ -70,9 +74,10 @@
     }
 }
 
-@media (min-width: 481px) and (max-width: 600px) {
+@media (min-width: 480px) and (max-width: 600px) {
     .background-shadow {
-        margin-top: 34%;
+        margin-top: -14%;
+        
     }
 }
 
@@ -110,7 +115,7 @@
     }
 
     .background-shadow{
-        bottom: 400px !important;
+        margin-top: -20%;
         left: 10px !important;
     }
     .text-section{
@@ -151,9 +156,9 @@
 }
 
 /* Breite 400px bis 480px (kleinere Tablets und größere Smartphones) */
-@media (min-width: 400px) and (max-width: 439px) {
+@media (min-width: 400px) and (max-width: 435px) {
   .hero-image {
-    margin-top: 2%;
+    margin-top: 30%;
     width: 350px;
   }
 
@@ -191,7 +196,7 @@
 
 
 /* Breite 361px bis 399px (mittlere Smartphones) */
-@media (min-width: 376px) and (max-width: 399px) {
+@media (min-width: 376px) and (max-width: 399.33px) {
   .hero-image {
     top: 12vh;
   }
@@ -223,7 +228,7 @@
 
   .background-shadow {
     margin-top: -12%;
-    margin-left: -40px !important;
+    
   }
 
   .footer-links {
@@ -254,6 +259,7 @@
   .text-section {
     margin-top: 20vh;
     margin-left: 20px;
+    transform: scale(0.9);
   }
 
   .footer-links {
@@ -367,4 +373,16 @@
    .footer-links{
     top:50px;
    }
+}
+
+@media (min-width: 361px) and (max-width: 374px){
+  .hero-image{
+    margin-top: 70%;
+  }
+
+  p{
+    margin-left: -5px !important;
+    margin-top: 40px;
+    
+  }
 }
