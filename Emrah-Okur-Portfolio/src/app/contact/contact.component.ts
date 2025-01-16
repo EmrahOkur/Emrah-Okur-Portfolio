@@ -21,7 +21,7 @@ import { strictEmailValidator } from './validators';
     http = inject(HttpClient)
   
     post = {
-      endPoint: 'https://emrah-okur.com/sendMail.php',
+      endPoint: 'https://emrah-okur.de/sendMail.php',
       body: (payload: any) => JSON.stringify(payload),
       options: {
         headers: {
