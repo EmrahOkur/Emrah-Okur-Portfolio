@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     overflow: hidden;
-    margin-top: -150px;
+    margin-top: 100px;
     padding-top: 100px;
 }
 
@@ -271,5 +271,8 @@
         margin-top: 10%;
         font-size: clamp(30px, 4vw, 45px);
         line-height: clamp(36px, 5vw, 54px);
+    }
+    .about-container{
+        margin-top: -200px;
     }
 }
