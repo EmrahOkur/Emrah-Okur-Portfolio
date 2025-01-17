@@ -1,0 +1,64 @@
+@import '../../styles.scss';
+
+@media only screen and (min-width: 768px) and (max-width: 767px) {
+    .background-shadow{
+        width: 500px !important;
+        height: 500px !important;
+        left: 80px !important ;
+        top: 0px;
+       }
+       .hero-image{
+        top: -17vh;
+       }
+       .text-section{
+        top:-120px;
+       }
+    
+}
+@media only screen and (min-width: 820px) and (max-width: 1180px) and (-webkit-min-device-pixel-ratio: 2) {
+    .text-section{
+        top:50px;
+    }
+}
+
+@media only screen and (width: 1024px) and (height: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+    .text-section{
+        left:-130px;
+    }
+  
+}
+
+@media only screen and (width: 912px) and (height: 1368px) and (-webkit-min-device-pixel-ratio: 2) {
+    .text-section{
+        top:-20px;
+    }
+}
+@media only screen and (width: 1024px) and (height: 768px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    .text-section{
+        top: 300px;
+    }
+}
+@media only screen and (width: 1180px) and (height: 820px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    .text-section{
+        top: 400px;
+    }
+}
+
+@media only screen and (width: 1366px) and (height: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+.text-section{
+    transform: scale(0.9);
+    top: 250px;
+}
+.background-shadow{
+    top:100px;
+}
+}
+
+@media only screen and (width: 1368px) and (height: 912px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+.footer-links{
+    left:0px;
+}
+.text-section{
+    top:250px;
+}
+}

@@ -126,7 +126,7 @@
            
             background-image: url('../assets/img/hero-img/shapeheropage.png');
             background-repeat: no-repeat;
-            background-position: left 0px top 70px;
+            background-position: left 0px top 0px;
             background-size: 100%  100%;
             z-index: 1;
             
@@ -172,7 +172,7 @@
                   position: absolute;
                   width: 100%;
                   height: 185px;
-                  top: 450px;
+                  top: 420px;
                 
                  
                   background-image: url('../assets/img/hero-img/shapeheropage.png');
@@ -192,7 +192,7 @@
                 position: absolute;
                 width: 100%;
                 height: 185px;
-                top: 470px;
+                top: 420px;
               
                
                 background-image: url('../assets/img/hero-img/shapeheropage.png');
@@ -230,9 +230,26 @@
                 @media (max-width: 412px) {
                   .background-layer-secondary {
                       position: absolute;
+                      width: 120%;
+                      height: 198px;
+                      top:420px;
+                    
+                     
+                      background-image: url('../assets/img/hero-img/shapeheropage.png');
+                      background-repeat: no-repeat;
+                      background-position: left 0px top 0px;
+                      background-size: 100%  100%;
+                      z-index: 1;
+                      
+                    }
+                  }
+
+                  @media (min-width: 376px) and (max-width: 399.33px) {
+                    .background-layer-secondary {
+                      position: absolute;
                       width: 100%;
-                      height: 298px;
-                      top:394px;
+                      height: 228px;
+                      top:454px;
                     
                      
                       background-image: url('../assets/img/hero-img/shapeheropage.png');
@@ -285,7 +302,7 @@
                       position: absolute;
                       width: 100%;
                       height: 208px;
-                      top: 434px;
+                      top: 494px;
                       
                     
                      

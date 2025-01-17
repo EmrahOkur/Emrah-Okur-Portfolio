@@ -6,7 +6,7 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './hero.component.html', 
-  styleUrls:[ './hero.component.scss','hero-responsive.component.scss', 'hero-desktop.component.scss', 'hero-mobile.component.scss']
+  styleUrls:[ './hero.component.scss','hero-responsive.component.scss', 'hero-desktop.component.scss', 'hero-mobile.component.scss','hero-tablet.component.scss']
 })
 export class HeroComponent {
 
