@@ -26,7 +26,7 @@ export const appConfig: ApplicationConfig = {
         useFactory: HttpLoaderFactory,
         deps: [HttpClient],
       },
-    }).providers!, // Verwende das Non-Null Assertion Operator (!) hier
+    }).providers || []
   ],
 };
 

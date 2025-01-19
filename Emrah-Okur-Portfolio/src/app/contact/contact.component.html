@@ -2,60 +2,59 @@
     <div class="contact-container">
         <div class="contact-header">
             <div class="contact-divider"></div>
-            <div class="contact-title">Contact</div>
+            <div class="contact-title">{{ 'CONTACT-SECTION.CONTACT-HEADLINE' | translate }}</div>
         </div>
         <div class="contact-content">
             <div class="contact-intro">
                 <div class="contact-intro-text" data-aos="slide-right">
-                    <div class="contact-problem">Got a problem to solve?</div>
+                    <div class="contact-problem">{{ 'CONTACT-SECTION.CONTACT-UNDER-HEADLINE' | translate }}</div>
                     <div class="contact-description">
-                        Contact me through this form, I am interested in hearing from you, knowing your ideas and
-                        contributing to your projects with my work.
+                        {{ 'CONTACT-SECTION.CONTACT-DESCRIPTION' | translate }}
                     </div>
-                    <div class="contact-invite">Need a Frontend developer? Contact me!</div>
+                    <div class="contact-invite">{{ 'CONTACT-SECTION.CONTACT-ME' | translate }}</div>
                 </div>
             </div>
             <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" class="contact-form" data-aos="zoom-in-up">
                 <div class="form-field form-name">
-                    <input type="text" placeholder="Your Name" formControlName="name"
+                    <input type="text" placeholder="{{ 'CONTACT-SECTION.CONTACT-NAME' | translate }}"formControlName="name"
                         [ngClass]="{'valid-border': name?.valid && name?.touched, 'error-border': name?.invalid && name?.touched}"
                         [ngStyle]="{'border-color': name?.invalid && name?.touched ? 'red' : null}">
                     <img *ngIf="name?.touched"
                         [src]="name?.valid ? '../../assets/img/contact-img/check.png' : '../../assets/img/contact-img/error.png'"
                         alt="Validation Icon" class="validation-icon">
                     <div *ngIf="name?.invalid && name?.touched" class="error-message">
-                        <small *ngIf="name?.errors?.['required']" >Your name is required.</small>
-                        <small *ngIf="name?.errors?.['minlength']" >Name must be at least 2 characters long.</small>
-                        <small *ngIf="name?.errors?.['maxlength']" >Name must be at most 40 characters long.</small>
+                        <small *ngIf="name?.errors?.['required']" >{{ 'NAME-ERRORS.REQUIRED' | translate }}</small>
+                        <small *ngIf="name?.errors?.['minlength']" >{{ 'NAME-ERRORS.MIN-LENGTH' | translate }}</small>
+                        <small *ngIf="name?.errors?.['maxlength']" >{{ 'NAME-ERRORS.MAX-LENGTH' | translate }}</small>
                     </div>
                 </div>
 
                 <div class="form-field form-email">
-                    <input type="email" placeholder="Your Email" formControlName="email"
+                    <input type="email" placeholder="{{ 'CONTACT-SECTION.CONTACT-EMAIL' | translate }}" formControlName="email"
                         [ngClass]="{'valid-border': email?.valid && email?.touched, 'error-border': email?.invalid && email?.touched}"
                         [ngStyle]="{'border-color': email?.invalid && email?.touched ? 'red' : null}">
                     <img *ngIf="email?.touched"
                         [src]="email?.valid ? '../../assets/img/contact-img/check.png' : '../../assets/img/contact-img/error.png'"
                         alt="Validation Icon" class="validation-icon">
                     <div *ngIf="email?.invalid && email?.touched" class="error-message">
-                        <small *ngIf="email?.errors?.['required']">Your email is required.</small>
-                        <small *ngIf="email?.errors?.['email']">Please enter a valid email address.</small>
-                        <small *ngIf="email?.errors?.['strictEmail']">Please enter a complete email address.</small>
-                        <small *ngIf="email?.errors?.['maxlength']">Email must be at most 40 characters long.</small>
+                        <small *ngIf="email?.errors?.['required']">{{ 'EMAIL-ERRORS.REQUIRED' | translate }}</small>
+                        <small *ngIf="email?.errors?.['email']">  {{ 'EMAIL-ERRORS.INVALID' | translate }}</small>
+                        <small *ngIf="email?.errors?.['strictEmail']">{{ 'EMAIL-ERRORS.STRICT' | translate }}</small>
+                        <small *ngIf="email?.errors?.['maxlength']">  {{ 'EMAIL-ERRORS.MAX-LENGTH' | translate }}</small>
                     </div>
                 </div>
 
                 <div class="form-field form-message">
-                    <textarea placeholder="Your Message" formControlName="message"
+                    <textarea placeholder="{{ 'CONTACT-SECTION.CONTACT-MESSAGE' | translate }}" formControlName="message"
                         [ngClass]="{'valid-border': message?.valid && message?.touched, 'error-border': message?.invalid && message?.touched}"
                         [ngStyle]="{'border-color': message?.invalid && message?.touched ? 'red' : null}"></textarea>
                     <img *ngIf="message?.touched"
                         [src]="message?.valid ? '../../assets/img/contact-img/check.png' : '../../assets/img/contact-img/error.png'"
                         alt="Validation Icon" class="validation-icon">
                     <div *ngIf="message?.invalid && message?.touched" class="error-message">
-                        <small *ngIf="message?.errors?.['required']" >Your message is empty.</small>
-                        <small *ngIf="message?.errors?.['minlength']" >Message must be at least 10 characters long.</small>
-                        <small *ngIf="message?.errors?.['maxlength']" >Message must be at most 500 characters long.</small>
+                        <small *ngIf="message?.errors?.['required']" >{{ 'MESSAGE-ERRORS.REQUIRED' | translate }}</small>
+                        <small *ngIf="message?.errors?.['minlength']" > {{ 'MESSAGE-ERRORS.MIN-LENGTH' | translate }}</small>
+                        <small *ngIf="message?.errors?.['maxlength']" >{{ 'MESSAGE-ERRORS.MAX-LENGTH' | translate }}</small>
                     </div>
                 </div>
 
@@ -63,22 +62,20 @@
                     <div class="consent-checkbox">
                         <input type="checkbox" id="consentCheckbox" formControlName="consent" />
                         <label for="consentCheckbox">
-                            I've read the <a class="router" routerLink="/privacy-policy" (click)="scrollToTop()">privacy policy</a> and
-                            agree to the processing of my data as
-                            outlined.
+                            {{ 'PRIVACY-POLICY.TEXT' | translate }}<a class="router" routerLink="/privacy-policy" (click)="scrollToTop()"> {{ 'PRIVACY-POLICY.LINK' | translate }}</a> {{ 'PRIVACY-POLICY.AGREE' | translate }}
                         </label>
                     </div>
                     <div *ngIf="consent?.invalid && consent?.touched" class="error-message">
-                        <small>You must agree to the privacy policy.</small>
+                        <small>{{ 'PRIVACY-POLICY.AGREEMENT' | translate }}</small>
                     </div>
                 </div>
                 <button data-aos-delay="2000" data-aos="fade-up" id="submitButton" [disabled]="contactForm.invalid"
                     [ngClass]="{'active': contactForm.valid}">
-                    Send Message :)
+                    {{ 'MESSAGE-ERRORS.SEND-MESSAGE' | translate }}
                 </button>
             </form>
             <div class="confirmation-container" *ngIf="showConfirmation">
-                <p>Your message has been sent successfully!</p>
+                <p>{{ 'MESSAGE-ERRORS.SEND-MESSAGE2' | translate }}</p>
             </div>
         </div>
         <div class="scroll-to-top">

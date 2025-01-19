@@ -28,15 +28,69 @@
                 "DOWN": "Scrolle runter"
               },
 
-              "SKILLS":{
-                "HEADLINE":"Meine Fähigkeiten"
+              "SKILLS-SECTION": {
+                "HEADLINE":"Meine Fähigkeiten",
+                "TITLE":"Ich habe Erfahrung in der Erstellung von Projekten mit verschiedenen Frontend-Technologien und Konzepten gesammelt.",
+                "SECOND-HEADLINE":"Suchst du",
+                "SECOND-HEADLINE2":"nach einer weiteren Fähigkeit?",
+                "UNDER-TEXT-HEADLINE":"Zögern Sie nicht, mich zu kontaktieren. Ich freue mich darauf, mein bisheriges Wissen zu erweitern.",
+                "GET-TOUCH-BUTTON":"Nehmen Sie Kontakt auf"
+
                
               },
-               "SECOND":{
-               "TITLE":"Ich habe Erfahrung in der Erstellung von Projekten mit verschiedenen Frontend-Technologien und Konzepten gesammelt."
-               }
-            
-    }
+
+              "PORTFOLIO-SECTION":{
+                "PORTFOLIO-UNDER-HEADLINE":"Entdecken Sie hier eine Auswahl meiner Arbeiten – Interagieren Sie mit den Projekten, um meine Fähigkeiten in Aktion zu sehen.",
+                  "JOIN-UNDER-HEADLINE":"Task-Manager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu.",
+                  "LOCO-UNDER-HEADLINE":"Ein einfaches Jump-and-Run-Spiel basierend auf einem objektorientierten Ansatz. Hilf Pepe, Münzen und Flaschen zu finden, um gegen das Boss-Huhn zu kämpfen.",
+                  "POKEDEX-UNDER-HEADLINE":"Basierend auf der PokéAPI, eine einfache Bibliothek, die Pokémon-Informationen bereitstellt und katalogisiert."
+
+              },
+
+              "REFERENCES-SECTION":{
+                "TEAM-PARTNER":"Emrah zeigt in allen Kooperationen durchweg außergewöhnliche Zuverlässigkeit und eine proaktive, lösungsorientierte Einstellung. Mit scharfen analytischen Fähigkeiten und bemerkenswerter Eigeninitiative meistert Emrah komplexe Herausforderungen und leistet dem Team in entscheidenden Momenten wertvolle Unterstützung. Besonders hervorzuheben ist Emrahs Fähigkeit, sich schnell in neue Konzepte einzuarbeiten und systematisch Fortschritte zur Erreichung der Projektziele voranzutreiben."
+
+              },
+              "CONTACT-SECTION":{
+                "CONTACT-HEADLINE":"Kontakt",
+                "CONTACT-UNDER-HEADLINE":"Haben Sie ein Problem zu lösen?",
+                "CONTACT-DESCRIPTION":"Kontaktieren Sie mich über dieses Formular. Ich freue mich darauf, von Ihnen zu hören, Ihre Ideen kennenzulernen und mit meiner Arbeit zu Ihren Projekten beizutragen.",
+                "CONTACT-ME":"Brauchen Sie einen Frontend-Entwickler? Kontaktieren Sie mich!",
+                "CONTACT-NAME":"Dein Name",
+                "CONTACT-EMAIL":"Deine Email",
+                "CONTACT-MESSAGE":"Deine Nachricht"
+              },
+                  "PRIVACY-POLICY": {
+                    "TEXT": "Ich habe die",
+                    "LINK": "Datenschutzerklärung",
+                    "AGREE": "gelesen und stimme der Verarbeitung meiner Daten entsprechend der darin beschriebenen Bedingungen zu.",
+                    "AGREEMENT":"Sie müssen der Datenschutzerklärung zustimmen."
+                  },
+
+                  "EMAIL-ERRORS": {
+    "REQUIRED": "Ihre E-Mail-Adresse ist erforderlich.",
+    "INVALID": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+    "STRICT": "Bitte geben Sie eine vollständige E-Mail-Adresse ein.",
+    "MAX-LENGTH": "Die E-Mail-Adresse darf maximal 40 Zeichen lang sein."
+  },
+  "NAME-ERRORS": {
+    "REQUIRED": "Ihr Name ist erforderlich.",
+    "MIN-LENGTH": "Der Name muss mindestens 2 Zeichen lang sein.",
+    "MAX-LENGTH": "Der Name darf maximal 40 Zeichen lang sein."
+  },
+  "MESSAGE-ERRORS": {
+    "REQUIRED": "Ihre Nachricht ist leer.",
+    "MIN-LENGTH": "Die Nachricht muss mindestens 10 Zeichen lang sein.",
+    "MAX-LENGTH": "Die Nachricht darf maximal 500 Zeichen lang sein.",
+    "SEND-MESSAGE":"Sende Nachricht :)",
+    "SEND-MESSAGE2":"Deine Nachricht wurde erfolgreich versendet!"
+  }
+}
+
+                
+
+              
+    
 
   
   

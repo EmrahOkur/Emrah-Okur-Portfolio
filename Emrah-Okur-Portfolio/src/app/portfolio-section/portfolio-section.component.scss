@@ -166,7 +166,8 @@ a {
 }
 
 .third {
-    max-width: 513px;
+    text-align: left ;
+    max-width: 413px;
     width: auto;
     height: auto;
     font-family: 'Poppins', sans-serif;
@@ -175,8 +176,22 @@ a {
     line-height: 19.2px;
     color: white;
     margin-bottom: 45px;
-    text-align: left;
 }
+
+div.third-middle {
+    text-align: center !important ;
+    max-width: 413px;
+    width: auto;
+    height: auto;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: white;
+    margin-bottom: 45px;
+}
+
+
 
 button {
     width: 152px;
@@ -232,6 +247,7 @@ button {
     text-align: right;
     align-items: flex-end;
     gap: 10px;
+    
 }
 
 .button-section-pollo {
@@ -254,6 +270,8 @@ button {
     .right-inner {
         margin-top: 20px;
     }
+    
+    
 }
 
 @media (max-width: 800px) {
@@ -297,6 +315,15 @@ button {
         text-align: center;
         height: auto;
         padding: 10px;
+    }
+
+    .third-middle {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        height: auto;
+        padding: 10px;
+       
     }
 
     .left-headline {

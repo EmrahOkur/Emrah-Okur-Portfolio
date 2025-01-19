@@ -5,11 +5,12 @@ import { HttpClientModule } from '@angular/common/http';
 import { HttpClient } from '@angular/common/http';
 import { RouterLink } from '@angular/router';
 import { strictEmailValidator } from './validators';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-contact',
   standalone: true,
-  imports: [ReactiveFormsModule, CommonModule, HttpClientModule, RouterLink],
+  imports: [ReactiveFormsModule, CommonModule, HttpClientModule, RouterLink, TranslateModule],
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.scss', 'contact-responsive.scss']
 })

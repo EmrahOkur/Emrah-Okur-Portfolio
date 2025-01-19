@@ -31,15 +31,72 @@
     "DOWN": "Scroll down"
   },
 
-  "SKILLS": {
-    "HEADLINE": "My Skills"
-    
+  "SKILLS-SECTION": {
+                "HEADLINE":"My Skills",
+                "TITLE":"I have gained experience in creating projects using various frontend technologies and concepts.",
+                 "SECOND-HEADLINE":"Looking for",
+                 "SECOND-HEADLINE2":"another skill?",
+                 "UNDER-TEXT-HEADLINE":"Feel free to contact me. I look forward to expanding on my previous knowledge.",
+                 "GET-TOUCH-BUTTON":"Get in touch"
 
+                 
+               
+              },
+
+              "PORTFOLIO-SECTION":{
+                "PORTFOLIO-UNDER-HEADLINE":"Explore a selection of my work here - Interact with projects to see my skills in action.",
+                "JOIN-UNDER-HEADLINE":"Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.",
+                "LOCO-UNDER-HEADLINE":"A simple Jump-and-Run game based on an object-oriented approach. Help Pepe to find coins and bottles to fight against the boss chicken.",
+                "POKEDEX-UNDER-HEADLINE":"Based on the PokéAPI, a simple library that provides and catalogues Pokémon information."
+
+              },
+              "REFERENCES-SECTION":{
+                "TEAM-PARTNER":"Emrah consistently demonstrates exceptional reliability and a proactive, solution-oriented mindset in all collaborations. With sharp analytical skills and remarkable initiative, Emrah excels at resolving complex challenges, providing invaluable support to the team during pivotal moments. Notably, Emrah's ability to swiftly grasp new concepts and systematically drive progress toward project goals stands out as a key strength."
+
+              },
+
+              "CONTACT-SECTION":{
+                "CONTACT-HEADLINE":"Contact",
+                "CONTACT-UNDER-HEADLINE":"Got a problem to solve?",
+                "CONTACT-DESCRIPTION":"Contact me through this form, I am interested in hearing from you, knowing your ideas and contributing to your projects with my work.",
+                "CONTACT-ME":"Need a Frontend developer? Contact me!",
+                "CONTACT-NAME":"Your Name",
+                "CONTACT-EMAIL":"Your Email",
+                "CONTACT-MESSAGE":"Your Message"
+              },
+                "PRIVACY-POLICY": {
+                  "TEXT": "I've read the",
+                  "LINK": "privacy policy",
+                  "AGREE": "and agree to the processing of my data as outlined.",
+                  "AGREEMENT":"You must agree to the privacy policy."
+                },
+
+                "EMAIL-ERRORS": {
+    "REQUIRED": "Your email is required.",
+    "INVALID": "Please enter a valid email address.",
+    "STRICT": "Please enter a complete email address.",
+    "MAX-LENGTH": "Email must be at most 40 characters long."
   },
-  "SECOND":{
-    "TITLE":"Ich habe Erfahrung in der Erstellung von Projekten mit verschiedenen Frontend-Technologien und Konzepten gesammelt."
-    }
+  "NAME-ERRORS": {
+    "REQUIRED": "Your name is required.",
+    "MIN-LENGTH": "Name must be at least 2 characters long.",
+    "MAX-LENGTH": "Name must be at most 40 characters long."
+  },
+  "MESSAGE-ERRORS": {
+    "REQUIRED": "Your message is empty.",
+    "MIN-LENGTH": "Message must be at least 10 characters long.",
+    "MAX-LENGTH": "Message must be at most 500 characters long.",
+    "SEND-MESSAGE":"Send Message :)",
+    "SEND-MESSAGE2":"Your message has been sent successfully!"
+  }
+  
 }
+
+              
+                
+
+              
+
 
   
   
