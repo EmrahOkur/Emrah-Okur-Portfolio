@@ -95,6 +95,26 @@ $dark: #141d2f;
     }
   }
 
+  .language-buttons {
+    display: flex;
+    gap: 16px; 
+    align-items: center;
+    margin: 0; 
+    position: absolute; 
+    right: 600px; 
+    top: 50%; 
+    transform: translateY(-50%); 
+  }
+
+  .language-icon {
+    height: 32px;
+  }
+  
+  .language-icon:hover {
+    cursor: pointer;
+    scale: 1.1;
+  }
+
   a {
     text-decoration: none;
   }
