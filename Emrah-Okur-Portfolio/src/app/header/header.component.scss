@@ -101,7 +101,7 @@ $dark: #141d2f;
     align-items: center;
     margin: 0; 
     position: absolute; 
-    right: 600px; 
+    right: 770px; 
     top: 50%; 
     transform: translateY(-50%); 
   }
@@ -127,7 +127,7 @@ $dark: #141d2f;
 
   .navbar-mobile {
     display: none;
-
+  
     .burger-icon {
       cursor: pointer;
       width: 30px;
@@ -135,7 +135,7 @@ $dark: #141d2f;
       position: relative;
       z-index: 11;
     }
-
+  
     .mobile-overlay {
       position: fixed;
       top: 0;
@@ -148,11 +148,11 @@ $dark: #141d2f;
       flex-direction: column;
       align-items: center;
       transition: right 0.125s ease;
-
+  
       &.navbar-open {
         right: 0;
       }
-
+  
       .overlay-header {
         width: 100%;
         display: flex;
@@ -160,26 +160,25 @@ $dark: #141d2f;
         padding-top: 37px;
         padding-left: 79px;
       }
-
+  
       .overlay-hero {
         font-weight: bold;
         font-family: "Poppins", sans-serif;
-        font-size: 34px;
-        color: white;
         font-size: 24px;
-
+        color: white;
+  
         &::first-letter {
           color: $toxicgreen;
         }
       }
-
+  
       .navbar-content {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 29px;
         margin-top: 180.97px;
-
+  
         a {
           color: white;
           text-decoration: none;
@@ -187,20 +186,43 @@ $dark: #141d2f;
           font-weight: 400;
           font-size: 23px;
           line-height: 27.6px;
-
+  
           &:hover {
             color: $toxicgreen;
+          }
+        }
+  
+        /* Sprachwechsel-Buttons */
+        .language-buttons {
+          margin-top: 32px; /* Abstand zu navbar-content */
+    display: flex;
+    gap: 16px;
+  
+          .language-icon {
+            width: 32px;
+            height: auto;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+  
+            &:hover {
+              transform: scale(1.1);
+            }
           }
         }
       }
     }
   }
 }
+  
 
 @media (max-width: 1440px) {
   .spread-apart {
     max-width: 1440px;
   }
+  .language-buttons {
+    left:600px;
+  }
+  
 }
 
 @media (max-width: 1300px) {
@@ -229,6 +251,10 @@ $dark: #141d2f;
       }
     }
   }
+  .language-buttons {
+    left:200px ;
+  }
+  
 }
 
 @media (max-width: 800px) {
@@ -254,8 +280,14 @@ $dark: #141d2f;
       align-items: center;
       gap: 10px;
     }
+
+    .language-buttons{
+      display: none;
   }
-}
+  }
+ 
+} 
+
 
 @media (max-width: 768px) {
   .header {

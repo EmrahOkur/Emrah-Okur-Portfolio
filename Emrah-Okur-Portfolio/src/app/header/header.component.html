@@ -5,9 +5,10 @@
     </a>
 
     <div class="navbar-desktop">
-      <a href="#about">About me</a>
-      <a href="#skills">Skills</a>
-      <a href="#portfolio">Portfolio</a>
+      <a href="#about">{{ 'HEADER.ABOUT_ME' | translate }}</a>
+      <a href="#skills">{{ 'HEADER.SKILLS' | translate }}</a>
+      <a href="#portfolio">{{ 'HEADER.PORTFOLIO' | translate }}</a>
+      <a href="#contact">{{ 'HEADER.CONTACT' | translate }}</a>
     </div>
 
     <div class="language-buttons">
@@ -15,15 +16,16 @@
         src="../../assets/img/switch-language/england.png"
         alt="English"
         class="language-icon"
-        
+        (click)="setLanguage('en')"
       />
       <img
         src="../../assets/img/switch-language/german.png"
         alt="Deutsch"
         class="language-icon"
-       
+        (click)="setLanguage('de')"
       />
     </div>
+    
 
     <div class="navbar-mobile">
         <img *ngIf="!navbarOpen && !animationClose" src="../../assets/img/header-img/burger menu.png" alt="Open Menu"
@@ -41,10 +43,25 @@
             <div class="overlay-hero">Emrah</div>
           </div>
           <nav class="navbar-content">
-            <a href="#about" (click)="toggleNavbar()">About me</a>
-            <a href="#skills" (click)="toggleNavbar()">Skills</a>
-            <a href="#portfolio" (click)="toggleNavbar()">Portfolio</a>
-            <a href="#contact" (click)="toggleNavbar()">Contact</a>
+            <a href="#about" (click)="toggleNavbar()">{{ 'NAVBAR.ABOUT' | translate }}</a>
+            <a href="#skills" (click)="toggleNavbar()">{{ 'NAVBAR.SKILLS' | translate }}</a>
+            <a href="#portfolio" (click)="toggleNavbar()">{{ 'NAVBAR.PORTFOLIO' | translate }}</a>
+            <a href="#contact" (click)="toggleNavbar()">{{ 'NAVBAR.CONTACT' | translate }}</a>
+
+            <div class="language-buttons">
+              <img
+                src="../../assets/img/switch-language/england.png"
+                alt="English"
+                class="language-icon"
+                (click)="setLanguage('en')"
+              />
+              <img
+                src="../../assets/img/switch-language/german.png"
+                alt="Deutsch"
+                class="language-icon"
+                (click)="setLanguage('de')"
+              />
+            </div>
           </nav>
         </div>
       </div>

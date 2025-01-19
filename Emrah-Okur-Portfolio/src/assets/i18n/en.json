@@ -1,0 +1,45 @@
+{
+    "HEADER": {
+      "ABOUT_ME": "About me",
+      "SKILLS": "Skills",
+      "PORTFOLIO": "Portfolio",
+      "CONTACT": "Contact"
+    },
+    "NAVBAR": {
+      "ABOUT": "About me",
+      "SKILLS": "Skills",
+      "PORTFOLIO": "Portfolio",
+      "CONTACT": "Contact"
+    },
+    "CTA": {
+      "TALK": "Let's talk"
+    },
+    
+    
+        "ABOUT": {
+          "TITLE": "About me",
+          "DESCRIPTION": "Hi, I am a German-speaking Frontend Developer based near Hamburg. Motivated by the limitless opportunities within IT, I am excited about crafting visually captivating and intuitive websites and applications.",
+          "LOCATION":"Flexible in terms of working environments, I can work effectively around Winsen to Lüneburg or Hamburg and remotely.",
+          "BULB":" I am open-minded and always looking for personal challenges to constantly improve my knowledge and skills.",
+          "PUZZLE":" In my profession, programming isn't just about writing code; it's a creative form of problem-solving. I take pride in my ability to distill complex technical challenges into simple, user-friendly solutions. This way, I help you achieve your goals and bring your visions to life."
+
+        },
+
+      
+
+        "SCROLL": {
+    "DOWN": "Scroll down"
+  },
+
+  "SKILLS": {
+    "HEADLINE": "My Skills"
+    
+
+  },
+  "SECOND":{
+    "TITLE":"Ich habe Erfahrung in der Erstellung von Projekten mit verschiedenen Frontend-Technologien und Konzepten gesammelt."
+    }
+}
+
+  
+  

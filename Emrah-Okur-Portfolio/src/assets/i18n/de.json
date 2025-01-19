@@ -1,0 +1,43 @@
+{
+    "HEADER": {
+      "ABOUT_ME": "Über mich",
+      "SKILLS": "Fähigkeiten",
+      "PORTFOLIO": "Portfolio",
+      "CONTACT": "Kontakt"
+    },
+    "NAVBAR": {
+      "ABOUT": "Über mich",
+      "SKILLS": "Fähigkeiten",
+      "PORTFOLIO": "Portfolio",
+      "CONTACT": "Kontakt"
+    },
+    
+        "CTA": {
+          "TALK": "Lass uns reden"
+        },
+        
+            "ABOUT": {
+              "TITLE": "Über mich",
+              "DESCRIPTION":"Hallo, ich bin ein deutschsprachiger Frontend-Entwickler aus der Nähe von Hamburg. Motiviert von den grenzenlosen Möglichkeiten in der IT freue ich mich darauf, visuell ansprechende und intuitive Webseiten und Anwendungen zu gestalten.",
+              "LOCATION":"Flexibel in Bezug auf Arbeitsumgebungen kann ich effektiv im Raum Winsen bis Lüneburg oder Hamburg sowie remote arbeiten.",
+              "BULB":"Ich bin aufgeschlossen und stets auf der Suche nach persönlichen Herausforderungen, um mein Wissen und meine Fähigkeiten kontinuierlich zu verbessern.",
+              "PUZZLE":"In meinem Beruf geht es beim Programmieren nicht nur darum, Code zu schreiben; es ist eine kreative Form der Problemlösung. Ich bin stolz darauf, komplexe technische Herausforderungen in einfache, benutzerfreundliche Lösungen umzuwandeln. So helfe ich Ihnen, Ihre Ziele zu erreichen und Ihre Visionen zum Leben zu erwecken."
+            },
+
+            "SCROLL": {
+                "DOWN": "Scrolle runter"
+              },
+
+              "SKILLS":{
+                "HEADLINE":"Meine Fähigkeiten"
+               
+              },
+               "SECOND":{
+               "TITLE":"Ich habe Erfahrung in der Erstellung von Projekten mit verschiedenen Frontend-Technologien und Konzepten gesammelt."
+               }
+            
+    }
+
+  
+  
+  
