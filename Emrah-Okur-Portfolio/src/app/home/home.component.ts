@@ -7,10 +7,11 @@ import { PortfolioSectionComponent } from '../portfolio-section/portfolio-sectio
 import { ReferencesSectionComponent } from '../references-section/references-section.component';
 import { ContactComponent } from '../contact/contact.component';
 
+
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule,HeroComponent, AboutMeComponent,SkillsSectionComponent,PortfolioSectionComponent,ReferencesSectionComponent,ContactComponent],
+  imports: [CommonModule,HeroComponent, AboutMeComponent,SkillsSectionComponent,PortfolioSectionComponent,ReferencesSectionComponent,ContactComponent,],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
