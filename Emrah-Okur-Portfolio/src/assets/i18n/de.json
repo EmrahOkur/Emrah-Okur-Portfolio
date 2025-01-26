@@ -109,6 +109,47 @@
   },
   "FOOTER-SECTION":{
     "LEGAL-NOTICE":"Impressum"
+  },
+
+  "PRIVACY-SECTION":{
+    "HEADLINE1":"Datenschutzerklärung",
+    "DETAIL-FIRST":" 1. Informationen zur Erhebung personenbezogener Daten",
+    "PARAGRAPH1":"(a) Im Folgenden informieren wir Sie über die Erhebung personenbezogener Daten bei Nutzung unserer Website. Personenbezogene Daten sind alle Daten, die auf Sie persönlich beziehbar sind, z. B. Name, Adresse, E-Mail-Adressen, Nutzerverhalten.",
+    "PARAGRAPH2":"(b) Verantwortlicher gemäß Art. 4 Abs. 7 der EU-Datenschutz-Grundverordnung (DSGVO) ist Emrah Okur, An'n Haidweg 1, 21423 Winsen Luhe, Deutschland.",
+    "HEADLINE2":"2. Ihre Rechte",
+    "PARAGRAPH3":"Sie haben folgende Rechte hinsichtlich der Sie betreffenden personenbezogenen Daten:",
+    "LIST1":"Recht auf Auskunft,",
+    "LIST2":"Recht auf Berichtigung oder Löschung,",
+    "LIST3":"Recht auf Einschränkung der Verarbeitung,",
+    "LIST4":"Recht auf Widerspruch gegen die Verarbeitung,",
+    "LIST5":"Recht auf Datenübertragbarkeit.",
+    "PARAGRAPH4":"Sie haben zudem das Recht, sich bei einer Datenschutzaufsichtsbehörde über die Verarbeitung Ihrer personenbezogenen Daten zu beschweren.",
+    "HEADLINE3":"3. Erhebung personenbezogener Daten bei Besuch unserer Website:",
+    "PARAGRAPH5":"Wenn Sie unsere Website betrachten möchten, erheben wir die folgenden Daten, die für uns technisch erforderlich sind, um Ihnen unsere Website anzuzeigen und die Stabilität und Sicherheit zu gewährleisten (Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. f DS-GVO):",
+    "LIST6":"IP-Adresse",
+    "LIST7":"Datum und Uhrzeit der Anfrage",
+    "LIST8":"Zeitzonendifferenz zur Greenwich Mean Time (GMT)",
+    "LIST9":"Inhalt der Anforderung (konkrete Seite)",
+    "LIST10":"Zugriffsstatus/HTTP-Statuscode",
+    "LIST11":"Jeweils übertragene Datenmenge",
+    "LIST12":"Website, von der die Anforderung kommt",
+    "LIST13":"Betriebssystem und dessen Oberfläche",
+    "LIST14":"Sprache und Version der Browsersoftware",
+    "HEADLINE4":"4. Kontaktformular / E-Mail-Kontakt",
+    "PARAGRAPH6":"Wenn Sie uns per E-Mail oder über ein Kontaktformular kontaktieren, werden die von Ihnen mitgeteilten Daten (Ihre E-Mail-Adresse, ggf. Ihr Name und Ihre Telefonnummer) von uns gespeichert, um Ihre Fragen zu beantworten. Die in diesem Zusammenhang anfallenden Daten löschen wir, nachdem die Speicherung nicht mehr erforderlich ist, oder schränken die Verarbeitung ein, falls gesetzliche Aufbewahrungspflichten bestehen.",
+    "PARAGRAPH7":"Wir hosten die Inhalte unserer Website bei folgendem Anbieter:",
+    "PARAGRAPH8":"Der Anbieter ist ALL-INKL.COM - Neue Medien München, Inhaber René Münnich, Hauptstraße 68, 02742 Friedersdorf (nachfolgend All-Inkl). Einzelheiten entnehmen Sie bitte der Datenschutzerklärung von All-Inkl:",
+    "PARAGRAPH9":"Die Nutzung von All-Inkl erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Wir haben ein berechtigtes Interesse daran, unsere Website möglichst zuverlässig darstellen zu lassen. Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO sowie § 25 Abs. 1 TTDSG, soweit die Einwilligung die Speicherung von Cookies oder den Zugriff auf Informationen im Endgerät des Nutzers (z. B. Device-Fingerprinting) im Sinne des TTDSG umfasst. Die Einwilligung ist jederzeit widerrufbar.",
+    "PARAGRAPH-HEADLINE":"Auftragsverarbeitungsvertrag",
+    "PARAGRAPH10":"Wir haben einen Auftragsverarbeitungsvertrag für die Nutzung des oben genannten Dienstes abgeschlossen. Dies ist ein datenschutzrechtlich vorgeschriebener Vertrag, der sicherstellt, dass sie die personenbezogenen Daten unserer Websitebesucher nur nach unseren Weisungen und in Übereinstimmung mit der DSGVO verarbeiten.",
+    "HEADLINE6":"Google Fonts (lokales Hosting)",
+    "PARAGRAPH11":"Diese Seite verwendet sogenannte Web Fonts, die von Google bereitgestellt werden, zur einheitlichen Darstellung von Schriftarten. Die Google Fonts sind lokal installiert. Eine Verbindung zu Servern von Google findet nicht statt.",
+    "PARAGRAPH12":"Weitere Informationen zu Google Web Fonts finden Sie unter:",
+    "PARAGRAPH13":"und in der Datenschutzerklärung von Google:",
+    "HEADLINE7":"7. Änderungen dieser Datenschutzerklärung",
+    "PARAGRAPH14":"Wir behalten uns das Recht vor, diese Datenschutzerklärung jederzeit zu ändern. Die aktuelle Version ist auf unserer Website verfügbar."
+
+
   }
 
 
