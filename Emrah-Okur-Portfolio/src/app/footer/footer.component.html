@@ -5,7 +5,7 @@
         <div class="hero">Emrah</div>
       </a>
       <div class="legal">
-        <a routerLink="/legal-notice">Legal Notice</a>
+        <a routerLink="/legal-notice" (click)="scrollToTop()">{{ 'FOOTER-SECTION.LEGAL-NOTICE' | translate }}</a>
       </div>
     </div>
     <div class="brand">© Emrah Okur 2024</div>
@@ -27,7 +27,7 @@
       </a>
     </div>
     <div class="legal-second">
-      <a routerLink="/legal-notice">Legal Notice</a>
+      <a routerLink="/legal-notice" (click)="scrollToTop()">{{ 'FOOTER-SECTION.LEGAL-NOTICE' | translate }}</a>
     </div>
   </div>
 </div>
