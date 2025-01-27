@@ -24,6 +24,7 @@
     margin: 0;
     padding: 0;
     z-index: 8;
+    
 }
 
 .about-title {
@@ -272,7 +273,9 @@
         font-size: clamp(30px, 4vw, 45px);
         line-height: clamp(36px, 5vw, 54px);
     }
-    .about-container{
+
+    .about-container {
         margin-top: -200px;
     }
+   
 }
