@@ -3,7 +3,7 @@
     <div class="privacy-policy-container">
         <div class="privacy-policy-title">
             <div class="horizontal-line"></div>
-            <h1>{{ 'PRIVACY-SECTION.HEADLINE1' | translate }}</h1>
+            <h1 [ngClass]="{ 'german': currentLanguage === 'de' }">{{ 'PRIVACY-SECTION.HEADLINE1' | translate }}</h1>
         </div>
 
         <div class="details-container">
