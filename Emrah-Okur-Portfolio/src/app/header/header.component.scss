@@ -95,22 +95,21 @@ $dark: #141d2f;
     }
   }
 
-  .language-buttons {
+  .language-buttons-desktop {
     display: flex;
     gap: 16px; 
     align-items: center;
     margin: 0; 
-    position: absolute; 
     right: 770px; 
     top: 50%; 
-    transform: translateY(-50%); 
+    transform: translateY(-10%); 
   }
 
-  .language-icon {
+  .language-icon-desktop {
     height: 32px;
   }
   
-  .language-icon:hover {
+  .language-icon-desktop:hover {
     cursor: pointer;
     scale: 1.1;
   }
@@ -195,10 +194,15 @@ $dark: #141d2f;
        
         .language-buttons {
           margin-top: 32px; 
-    display: flex;
-    gap: 16px;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          gap: 16px;
   
           .language-icon {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
             width: 32px;
             height: auto;
             cursor: pointer;
@@ -219,8 +223,8 @@ $dark: #141d2f;
   .spread-apart {
     max-width: 1440px;
   }
-  .language-buttons {
-    left:600px;
+  .language-buttons-desktop {
+    left:900px;
   }
   
 }
@@ -251,7 +255,7 @@ $dark: #141d2f;
       }
     }
   }
-  .language-buttons {
+  .language-buttons-desktop {
     left:200px ;
   }
   
@@ -281,10 +285,29 @@ $dark: #141d2f;
       gap: 10px;
     }
 
-    .language-buttons{
+    .language-buttons-desktop{
       display: none;
   }
+
+  .language-buttons-mobile {
+    display: flex;
+    gap: 16px; 
+    align-items: center;
+    margin: 0; 
+    right: 770px; 
+    top: 50%; 
+    transform: translateY(-10%); 
   }
+
+  .language-icon-mobile {
+    height: 32px;
+  }
+  
+  .language-icon-mobile:hover {
+    cursor: pointer;
+    scale: 1.1;
+  }
+}
  
 } 
 
