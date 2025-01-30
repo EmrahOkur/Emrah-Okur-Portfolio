@@ -149,9 +149,10 @@
       left: 20px !important;
      }
     .text-section{
-        top: -120px;
+        top: -50px;
     }
     .footer-links{
+      top:150px;
         left: 0px;
     }
     h1{
@@ -209,6 +210,9 @@
     margin-left: -22px !important ;
     margin-bottom: 5px !important ;
   }
+  .footer-links{
+    top:45px;
+  }
 }
 
 
@@ -248,7 +252,7 @@
   .background-shadow{
     width: 400px !important;
     height: 400px !important;
-    left: 20px !important;
+    left: 10px !important;
    }
 
   .footer-links {
@@ -265,8 +269,8 @@
   .background-shadow{
     width: 400px !important;
     height: 400px !important;
-    left: -20px !important;
-    top: 30px;
+    left: 10px !important;
+    top: 50px;
    }
 
   .hero-image {
@@ -279,7 +283,7 @@
   }
 
   .text-section {
-    top: 15vh;
+    top: 12vh;
     margin-left: 80px;
     transform: scale(0.9);
   }
@@ -311,8 +315,9 @@
 /* Bis 320px (sehr kleine Smartphones) */
 @media (max-width: 320px) {
   .hero-image {
-    top: 25vh !important;
+    top: 35vh !important;
     width: 347px;
+    left:-5px;
   }
 
   .background-shadow{
@@ -327,14 +332,14 @@
   }
 
   .text-section {
-    margin-top: 6vh;
+    margin-top: 8vh;
     transform: scale(0.8);
     margin-left: 40px;
   }
 
   .footer-links {
     left: 0px;
-    top: 0px;
+    top: -40px;
   }
 
   h1 {
@@ -355,6 +360,7 @@
     margin-bottom: 30px !important;
     margin-left: 12px !important;
   }
+ 
 }
 
 
