@@ -168,7 +168,7 @@
             @media screen and (max-width: 440px){
               .background-layer-secondary {
                 position: absolute;
-                width: 120%;
+                width: 100%;
                 height: 305px;
                 top: 430px;
               
@@ -246,7 +246,7 @@
                 @media (max-width: 412px) {
                   .background-layer-secondary {
                       position: absolute;
-                      width: 120%;
+                      width: 100%;
                       height: 198px;
                       top:420px;
                     
@@ -297,7 +297,7 @@
                 @media (max-width: 360px) {
                   .background-layer-secondary {
                       position: absolute;
-                      width: 120%;
+                      width: 100%;
                       height: 288px;
                       top: 434px;
                       
@@ -316,15 +316,15 @@
               @media (max-width: 320px) {
                   .background-layer-secondary {
                       position: absolute;
-                      width: 120%;
-                      height: 208px;
-                      top: 494px;
+                      width: 100%;
+                      height: 198px;
+                      top: 394px;
                       
                     
                      
                       background-image: url('../assets/img/hero-img/shapeheropage.png');
                       background-repeat: no-repeat;
-                      background-position: left 0px top 20px;
+                      background-position: left 0px top 0px;
                       background-size: 100%  100%;
                       z-index: 1;
                       
