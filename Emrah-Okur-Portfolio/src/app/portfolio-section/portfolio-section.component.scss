@@ -256,6 +256,21 @@ button {
     gap: 85px;
 }
 
+@media (max-width: 1456px) {
+    .third-middle {
+        margin-left: 100px;
+        max-width: 413px;
+        width: auto;
+        height: auto;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19.2px;
+        color: white;
+        margin-bottom: 45px;
+    }
+}
+
 @media (max-width: 1440px) {
     .portfolio-section {
         overflow: hidden;
