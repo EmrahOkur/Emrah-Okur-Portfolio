@@ -1,6 +1,10 @@
 @import '../../styles.scss';
 
-
+@media (max-width: 1456px) {
+    .footer-links{
+        left:-20px;
+    }
+}
 
 @media (max-width: 1100px) {
     .cta-button {
@@ -12,6 +16,7 @@
         margin-top: 20px;
         
     }
+   
 
     .hero-main {
         .hero-description {

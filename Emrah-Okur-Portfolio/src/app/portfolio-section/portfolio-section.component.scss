@@ -177,9 +177,7 @@ a {
     color: white;
     margin-bottom: 45px;
 }
-
-div.third-middle {
-    text-align: center !important ;
+.third-middle {
     max-width: 413px;
     width: auto;
     height: auto;
@@ -190,8 +188,6 @@ div.third-middle {
     color: white;
     margin-bottom: 45px;
 }
-
-
 
 button {
     width: 152px;
@@ -263,6 +259,18 @@ button {
 @media (max-width: 1440px) {
     .portfolio-section {
         overflow: hidden;
+    }
+    .third-middle {
+        margin-left: 100px;
+        max-width: 413px;
+        width: auto;
+        height: auto;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19.2px;
+        color: white;
+        margin-bottom: 45px;
     }
 }
 
