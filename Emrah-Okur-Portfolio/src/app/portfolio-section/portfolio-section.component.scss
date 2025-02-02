@@ -103,8 +103,13 @@ a {
     height: 339.19px;
     margin-top: 20px;
     margin-top: 51px;
-    z-index: 7;
+    z-index: 1;
 }
+.image{
+    pointer-events: none;
+}
+
+
 
 .inner-container {
     display: flex;
@@ -186,6 +191,7 @@ button {
     font-weight: 400;
     font-size: 23px;
     line-height: 27.6px;
+    z-index: 10;
 
     &:hover {
         cursor: pointer;

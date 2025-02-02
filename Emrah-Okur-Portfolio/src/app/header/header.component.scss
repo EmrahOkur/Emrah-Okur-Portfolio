@@ -100,9 +100,10 @@ $dark: #141d2f;
     gap: 16px; 
     align-items: center;
     margin: 0; 
-    right: 770px; 
+    right: 870px; 
     top: 50%; 
     transform: translateY(-10%); 
+    transform: translateX(-40px);
   }
 
   .language-icon-desktop {
@@ -198,6 +199,7 @@ $dark: #141d2f;
           flex-direction: row;
           align-items: center;
           gap: 16px;
+          
   
           .language-icon {
             display: flex;
