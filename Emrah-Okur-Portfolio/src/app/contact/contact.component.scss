@@ -20,8 +20,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: linear-gradient(135deg, #4a90e2, #1e3c72); 
-    color: white;
+    background: linear-gradient(135deg, $toxicgreen, darken($toxicgreen, 20%)); 
+    color: $purple;
     padding: 14px 24px;
     font-size: 16px;
     font-weight: 500;
