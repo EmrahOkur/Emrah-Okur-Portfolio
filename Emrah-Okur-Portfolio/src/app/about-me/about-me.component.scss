@@ -5,8 +5,8 @@
     display: flex;
     justify-content: center;
     overflow: hidden;
-    margin-top: 100px;
-    padding-top: 100px;
+    margin-top: 0px;
+    padding-top: 50px;
 }
 
 .about-wrapper {
@@ -271,7 +271,16 @@
         font-size: clamp(30px, 4vw, 45px);
         line-height: clamp(36px, 5vw, 54px);
     }
+    .about-container{
+        margin-top: -250px;
+        padding-top: -250px;
+    }
 
     
    
+}
+@media (max-width: 320px) {
+    .about-container{
+        margin-top: -50px;
+    }
 }

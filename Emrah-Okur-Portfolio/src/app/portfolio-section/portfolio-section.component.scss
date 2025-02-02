@@ -5,8 +5,9 @@
     justify-content: center;
     width: 100%;
     overflow: hidden;
-    margin-top: 110px;
-    padding-top: 110px;
+    margin-top: 0px;
+    padding-top: 0px;
+    overflow: hidden;
 }
 
 .portfolio {
@@ -28,7 +29,7 @@ a {
     top: 260px;
     left: -400px;
     width: 100%;
-    z-index: 7;
+    z-index: -1;
 
     img {
         width: 636px;
@@ -408,5 +409,13 @@ button {
 
     .portfolio {
         gap: 0;
+    }
+    .portfolio-section{
+        margin-top: -250px;
+    }
+}
+@media (max-width: 320px) {
+    .portfolio-section{
+        margin-top: -50px;
     }
 }
