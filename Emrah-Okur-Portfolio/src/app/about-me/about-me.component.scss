@@ -164,6 +164,13 @@
     .about-row {
         margin-top: 55px;
     }
+
+    .image-divider {
+        position: relative;
+        z-index: 11;
+        width: 100vw;
+        margin-right: -90vw;
+    }
 }
 
 @media (min-width: 1441px) and (max-width: 2560px) {
