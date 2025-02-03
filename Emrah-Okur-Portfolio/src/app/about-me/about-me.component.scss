@@ -114,9 +114,11 @@
 .image-divider {
     position: relative;
     z-index: 1;
-    width: 100%;
+    width: 300%;
     height: 4px;
     background-color: $toxicgreen;
+    margin-right: -150%;
+    
     
 }
 
