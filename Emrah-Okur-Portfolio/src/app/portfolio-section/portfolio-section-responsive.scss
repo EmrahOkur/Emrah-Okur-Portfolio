@@ -27,10 +27,16 @@
         width: 150vw;
         margin-right: -46vw;
     }
+
+    .portfolio-section{
+        margin-top: -500px;
+        padding-top: -500px;
+    }
 }
 
 @media only screen and (max-width: 2560px) and (max-height: 1440px)  {
     .left-headline {
         margin-left: -51vw;
     }
+   
 }
