@@ -11,7 +11,7 @@
     }
 
     .hero-container {
-        height: 41vh;
+        height: 70vh;
     }
 
     .background-shadow {
@@ -19,8 +19,11 @@
         width: 144vw;
         margin-left: -22vw;
         height: 58vw;
-        z-index: 6;
-        margin-top: -79%;
+        z-index: -1;
+        margin-top: -10%;
+    }
+    .text-section{
+        bottom: 300px;
     }
 
     .divider {

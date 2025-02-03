@@ -10,6 +10,7 @@ $red: #e61c40;
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 @font-face {
@@ -32,9 +33,9 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  overflow-x: hidden;
   box-sizing: border-box;
   min-height: 100vh;
+  
   
 }
 
