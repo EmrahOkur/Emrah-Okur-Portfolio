@@ -18,7 +18,7 @@ export class HeroComponent implements OnInit {
   ngOnInit(): void {
     if (isPlatformBrowser(this.platformId)) {
       AOS.init({
-        duration: 1000, 
+        duration: 200, 
         once: false, 
       });
     }
