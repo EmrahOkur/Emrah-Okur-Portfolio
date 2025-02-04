@@ -77,6 +77,7 @@
       left:0px;
     }
     
+    
 
     
     
@@ -343,8 +344,11 @@
   }
 
   .footer-links {
-    left: 0px;
+    left: -20px;
     top: -40px;
+  }
+  .divider{
+    width: 10vw;
   }
 
   h1 {
@@ -393,7 +397,7 @@
 
 @media (min-width: 375px) and (max-width: 376px) {
    .hero-image{
-    top:80px;
+    top:120px;
     margin-right:150px;
    }
 

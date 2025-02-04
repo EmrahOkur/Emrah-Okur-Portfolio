@@ -184,6 +184,8 @@
 @media (max-width: 400px) {
     .contact-container {
         height: calc(100vh + 359.03px);
+        margin-top: -130px;
+        padding-top: -130px;
     }
 }
 
@@ -198,9 +200,15 @@
 
 @media (max-width: 320px) {
     .contact-container {
+        margin-top: 0; 
+        padding-top: 100px; 
+        min-height: auto;
+        height: auto;
+        
         .contact-footer-shadow {
             left: -41vh;
             top: -30vh;
         }
     }
 }
+

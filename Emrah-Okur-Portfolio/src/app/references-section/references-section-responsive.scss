@@ -232,3 +232,11 @@
         margin-right: -35vw;
     }
 }
+
+@media (max-width: 320px) {
+    .references-section {
+        margin-top: 0; 
+        padding-top: 100px; 
+    }
+    
+}
