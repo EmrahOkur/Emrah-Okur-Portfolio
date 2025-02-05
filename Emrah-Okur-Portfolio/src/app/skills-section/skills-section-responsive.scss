@@ -250,7 +250,8 @@
         text-align: center;
     }
     .skills-container-wrapper{
-        margin-top: -150px;
+        margin-top: 0px;
+        padding-top: 0px;
     }
    
 }
@@ -259,6 +260,13 @@
     .learning {
         margin-left: -26vh;
     }
+    .skills-container-wrapper{
+        margin-top: 0; 
+        padding-top: 0px; 
+        min-height: auto;
+        height: auto;
+        
+    }
 }
 
 @media (max-width: 375px) {
@@ -266,11 +274,15 @@
         margin-left: -23vh;
     }
     
+    
 }
 
 @media (max-width: 360px) {
     .skills-main-wrapper {
         height: calc(100vh + 332.03px);
+        
+           
+        
     }
 
     .second-under-text-skills {
@@ -280,6 +292,7 @@
     .learning {
         margin-left: -21.9vh;
     }
+    
 }
 
 @media (max-width: 320px) {
@@ -288,8 +301,8 @@
     }
 
     .under-text-skills-smaller {
-        margin-bottom: 10vh;
-        margin-top: 5vh;
+        margin-bottom: 0vh;
+        margin-top: -2vh;
     }
 
     .skills-icons-wrapper {
@@ -300,6 +313,11 @@
         margin-left: -20vh;
     }
     .skills-container-wrapper{
-        margin-top: -50px;
+        margin-top: 0px; 
+        padding-top: 0px; 
+
+    }
+    #skills{
+        scroll-margin-top:120px ;
     }
 }
