@@ -88,4 +88,17 @@ export class HeaderComponent implements AfterViewInit {
       localStorage.setItem('language', lang);
     }
   }
+
+  scrollToSection(section: string) {
+    const sectionElement = document.getElementById(section);
+    const navbarHeight = document.querySelector('.navbar')?.clientHeight || 0; // Navbar Höhe ermitteln
+
+    if (sectionElement) {
+        window.scrollTo({
+            top: sectionElement.offsetTop - navbarHeight, // Offset der Navbar abziehen
+            behavior: 'smooth'
+        });
+    }
+}
+
 }

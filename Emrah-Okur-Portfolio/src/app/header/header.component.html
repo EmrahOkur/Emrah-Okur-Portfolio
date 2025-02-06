@@ -52,10 +52,10 @@
             <div class="overlay-hero">Emrah</div>
           </div>
           <nav class="navbar-content">
-            <a href="#about" (click)="toggleNavbar()">{{ 'NAVBAR.ABOUT' | translate }}</a>
-            <a href="#skills" (click)="toggleNavbar()">{{ 'NAVBAR.SKILLS' | translate }}</a>
-            <a href="#portfolio" (click)="toggleNavbar()">{{ 'NAVBAR.PORTFOLIO' | translate }}</a>
-            <a href="#contact" (click)="toggleNavbar()">{{ 'NAVBAR.CONTACT' | translate }}</a>
+            <a (click)="scrollToSection('about')">{{ 'NAVBAR.ABOUT' | translate }}</a>
+            <a (click)="scrollToSection('skills')">{{ 'NAVBAR.SKILLS' | translate }}</a>
+            <a (click)="scrollToSection('portfolio')">{{ 'NAVBAR.PORTFOLIO' | translate }}</a>
+            <a (click)="scrollToSection('contact')">{{ 'NAVBAR.CONTACT' | translate }}</a>
 
             <div class="language-buttons-mobile">
               <img

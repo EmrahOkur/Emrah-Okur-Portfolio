@@ -331,6 +331,8 @@ button {
     .right-headline {
         width: 100vw;
     }
+    
+
 
     .headline-portfolio-section {
         width: 100vw;
@@ -410,12 +412,5 @@ button {
     .portfolio {
         gap: 0;
     }
-    .portfolio-section{
-        margin-top: -150px;
-    }
-}
-@media (max-width: 320px) {
-    .portfolio-section{
-        margin-top: -50px;
-    }
+    
 }
