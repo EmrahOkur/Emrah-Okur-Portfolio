@@ -88,6 +88,7 @@ export class HeaderComponent implements AfterViewInit {
     if (this.isBrowser) {
       localStorage.setItem('language', lang);
     }
+    this.navbarOpen = false;
   }
 
   scrollToSection(section: string) {
