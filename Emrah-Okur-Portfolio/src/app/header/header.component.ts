@@ -61,6 +61,7 @@ export class HeaderComponent implements AfterViewInit {
   setActive(section: string) {
     this.activeSection = section;
     this.closeMenuWithAnimation();
+    
   }
 
   toggleNavbar() {
@@ -91,13 +92,15 @@ export class HeaderComponent implements AfterViewInit {
 
   scrollToSection(section: string) {
     const sectionElement = document.getElementById(section);
-    const navbarHeight = document.querySelector('.navbar')?.clientHeight || 0; // Navbar Höhe ermitteln
+    const navbarHeight = document.querySelector('.navbar')?.clientHeight || 0; 
 
     if (sectionElement) {
         window.scrollTo({
-            top: sectionElement.offsetTop - navbarHeight, // Offset der Navbar abziehen
+            top: sectionElement.offsetTop - navbarHeight, 
             behavior: 'smooth'
         });
+
+        this.navbarOpen = false;
     }
 }
 
